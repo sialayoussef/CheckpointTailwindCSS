@@ -1,0 +1,161 @@
+*{
+    font-family: 'poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} 
+body{
+    background-image: url("devdgd.jpg");
+    background-size: cover;
+}
+image{
+    width: 5px;
+    height: 5px; 
+}
+.navim {
+    max-width: 50px;
+     width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+    
+
+} 
+.navTitles {
+    width: 100%;
+    text-decoration-color: beige; 
+    font-size:medium; 
+    align-items: center;
+}
+nav{
+    width: 100%;
+    text-decoration-color: beige; 
+    font-size:medium; 
+    position: relative;
+}
+h1 {
+	color: red;
+	font-family: roboto;
+	text-align: center;
+}
+
+h2{
+    color: rgb(247, 240, 240);
+	font-family: roboto;
+	text-align: center;
+}  
+h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:antiquewhite
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    color: darkgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#ffffff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 80px;
+}
+
+.container .box-container .box h3{
+    color:#f7eeee;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#dad8d8;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}:root {
+    --primary-color: #337ab7;
+    --secondary-color: #666;
+    --background-color: #f9f9f9;
+  }
+  
+  .card {
+    background-color: var(--background-color);
+  }
+  
+  .card h2 {
+    color: var(--primary-color);
+  }
+  
+  .card p {
+    color: var(--secondary-color);
+  }
+  
+  .card button {
+    background-color: var(--primary-color);
+  }
+  .container {
+    background: linear-gradient(45deg, rgba(46, 18, 18, 0.2), #90ee9029);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    box-shadow: rgba(240, 248, 255, 0);
+}
